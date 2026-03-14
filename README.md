@@ -1,8 +1,9 @@
 # Terry Davis Fan Website 👾
 
+[![Visit Website](https://img.shields.io/badge/Visit%20Website-💻-brightgreen?style=for-the-badge&logo=github)](https://tinyopsec.github.io/TerryDavis-FanWebsite/)
+
 A tribute site celebrating the life and work of Terry A. Davis. Explore his projects, videos, and unique contributions to computing. This site is designed to be interactive, modern, and accessible.
 
-[![Visit Website](https://img.shields.io/badge/Website-Visit-blue)](https://tinyopsec.github.io/TerryDavis-FanWebsite/)
 [![GitHub Stars](https://img.shields.io/github/stars/tinyopsec/TerryDavis-FanWebsite?style=social)](https://github.com/tinyopsec/TerryDavis-FanWebsite/stargazers)
 [![Issues](https://img.shields.io/github/issues/tinyopsec/TerryDavis-FanWebsite)](https://github.com/tinyopsec/TerryDavis-FanWebsite/issues)
 [![Discussions](https://img.shields.io/github/discussions/tinyopsec/TerryDavis-FanWebsite)](https://github.com/tinyopsec/TerryDavis-FanWebsite/discussions)
@@ -41,5 +42,3 @@ This fan website hosts a collection of resources related to Terry Davis, includi
 - [Terry A. Davis Wikipedia](https://en.wikipedia.org/wiki/Terry_A._Davis)  
 - [TempleOS Project](https://templeos.holyc.xyz/)  
 - [Interviews and Articles](https://www.google.com/search?q=Terry+A.+Davis+interview)  
-
----
