@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A respectful tribute to Terry A. Davis — creator of TempleOS. Video archive, biography, and Wikipedia article.">
+<title>Terry A. Davis &mdash; Tribute &amp; Archive</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="index">
+
+<nav>
+  <div class="nav-in">
+    <a class="nav-brand" href="index.html">
+      <span>./</span>
+      <span class="nav-brand-name">TERRY A. DAVIS</span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">&#9776;</button>
+    <ul class="nav-links" id="nav-links" role="list">
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="wikipedia.html">Wikipedia</a></li>
+      <li><a href="index.html#about-templeos">About TempleOS</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+  <section class="hero" aria-labelledby="hero-h1">
+    <div class="hero-in">
+
+      <div class="hero-photo-outer">
+        <div class="hero-photo-frame">
+          <img
+            src="images/terry.jpg"
+            alt="Terry A. Davis, circa 2017"
+            onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/c/cf/Terry_A._Davis_2017.png'"
+          >
+          <div class="hero-photo-lines" aria-hidden="true"></div>
+          <div class="hero-photo-bar" aria-hidden="true">
+            <span>DAVIS_TERRY_A</span>
+            <span>1969&#8211;2018</span>
+          </div>
+        </div>
+        <p class="hero-credit">
+          Photo: <a href="https://commons.wikimedia.org/wiki/File:Terry_A._Davis_2017.png" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>
+        </p>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-eyebrow">IN MEMORIAM &mdash; TRIBUTE &amp; ARCHIVE</p>
+
+        <h1 class="hero-title" id="hero-h1">
+          Terry A. Davis<br>
+          <em>Creator of TempleOS</em>
+        </h1>
+
+        <p class="hero-dates">December 15, 1969 &nbsp;&mdash;&nbsp; August 11, 2018</p>
+
+        <p class="hero-bio">
+          Terry A. Davis was an American programmer who spent approximately
+          <strong>15 years</strong> single-handedly building
+          <strong>TempleOS</strong> &mdash; a biblical-themed operating system
+          with its own compiler, kernel, 3D graphics engine, and programming
+          language (<strong>HolyC</strong>), all written from scratch.
+          He held a master&rsquo;s degree in electrical engineering and believed
+          God had commanded him to build the Temple.
+          The codebase is roughly <strong>100,000 lines</strong> of original work
+          by one person.
+        </p>
+
+        <div class="hero-tags" aria-label="Keywords">
+          <span class="hero-tag">TempleOS</span>
+          <span class="hero-tag">HolyC</span>
+          <span class="hero-tag">Solo Dev</span>
+          <span class="hero-tag">640&#215;480</span>
+          <span class="hero-tag">Ring 0</span>
+          <span class="hero-tag">Oracle</span>
+        </div>
+
+        <div class="hero-cta">
+          <a href="videos.html" class="btn btn-primary">&#9654; Video Archive</a>
+          <a href="wikipedia.html" class="btn btn-ghost">Wikipedia &#8599;</a>
+          <a href="https://templeos.org" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">TempleOS.org &#8599;</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="stats-strip">
+    <div class="stats-in">
+      <div class="stat">
+        <span class="stat-val" id="stat-total">1132</span>
+        <span class="stat-lbl">Videos archived</span>
+      </div>
+      <span class="sep" aria-hidden="true">/</span>
+      <div class="stat">
+        <span class="stat-val">~15</span>
+        <span class="stat-lbl">Years on TempleOS</span>
+      </div>
+      <span class="sep" aria-hidden="true">/</span>
+      <div class="stat">
+        <span class="stat-val">100K</span>
+        <span class="stat-lbl">Lines of HolyC</span>
+      </div>
+      <span class="sep" aria-hidden="true">/</span>
+      <div class="stat">
+        <span class="stat-val">2</span>
+        <span class="stat-lbl">Channels</span>
+      </div>
+    </div>
+  </div>
+
+  <section class="section-wrap" aria-labelledby="feat-hd">
+    <div class="section-in">
+      <div class="section-hd">
+        <h2 class="section-title" id="feat-hd">Featured Videos</h2>
+        <span class="section-sub">from videos.json</span>
+        <a class="section-action btn btn-ghost btn-sm" href="videos.html">View all &#8594;</a>
+      </div>
+      <div class="feat-grid" id="featured-grid" aria-label="Featured videos">
+        <p style="font-size:.75rem;color:var(--text3);letter-spacing:1px;padding:.5rem 0">Loading&hellip;</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-wrap-alt" id="about-templeos" aria-labelledby="about-hd">
+    <div class="section-in">
+      <div class="section-hd">
+        <h2 class="section-title" id="about-hd">About TempleOS</h2>
+      </div>
+      <div class="about-grid">
+
+        <div class="about-card">
+          <p class="about-card-label green">The Operating System</p>
+          <p>
+            <strong>TempleOS</strong> is a public-domain x86-64 operating system.
+            It runs in Ring&nbsp;0 with no virtual memory, no networking by design,
+            and a fixed <em>640&times;480 16-colour</em> display &mdash; all
+            specified by God, according to Davis.
+            It ships with a JIT compiler, IDE, games, a flight simulator, and the
+            biblical word oracle.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <p class="about-card-label amber">HolyC Language</p>
+          <p>
+            <strong>HolyC</strong> is a C-like language Terry designed from scratch.
+            It compiles JIT in the shell, executes at full hardware privilege,
+            and powers every component of the OS.
+            Writing a working compiler is a significant feat; Davis wrote every
+            line of it alone, without using any reference implementations.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <p class="about-card-label cyan">The Oracle</p>
+          <p>
+            The <em>word oracle</em> draws random words from a biblical lexicon
+            using hardware-derived entropy. Davis believed God controls all
+            randomness and that the oracle was a real channel of divine
+            communication &mdash; the core spiritual purpose the entire OS was
+            built to serve.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <p class="about-card-label green">Design Constraints</p>
+          <p>
+            640&times;480 resolution, 16 colours, no network stack, single ring
+            execution. These were not limitations &mdash; they were <em>commandments</em>.
+            Davis documented each design decision as divinely specified.
+            The result is one of the most unusual and technically rigorous solo
+            software projects ever completed.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-in">
+    <div class="footer-col">
+      <span class="footer-label">Site</span>
+      <a href="index.html">Home</a>
+      <a href="videos.html">Videos</a>
+      <a href="wikipedia.html">Wikipedia</a>
+    </div>
+    <div class="footer-col">
+      <span class="footer-label">External</span>
+      <a href="https://templeos.org" target="_blank" rel="noopener noreferrer">TempleOS.org</a>
+      <a href="https://archive.org/details/TerryADavis_TempleOS" target="_blank" rel="noopener noreferrer">Internet Archive</a>
+      <a href="https://www.youtube.com/@Davisanism" target="_blank" rel="noopener noreferrer">Davisanism (YouTube)</a>
+      <a href="https://www.youtube.com/@TerryADavis" target="_blank" rel="noopener noreferrer">Terry Davis (YouTube)</a>
+      <a href="https://en.wikipedia.org/wiki/Terry_A._Davis" target="_blank" rel="noopener noreferrer">Wikipedia</a>
+    </div>
+    <p class="footer-copy">RIP TERRY A. DAVIS &mdash; 1969&ndash;2018 &mdash; BUILT WITH RESPECT</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

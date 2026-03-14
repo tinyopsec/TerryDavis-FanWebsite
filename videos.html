@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Complete video archive of Terry A. Davis — 1132 videos from the Davisanism and Terry Davis YouTube channels.">
+<title>Video Archive &mdash; Terry A. Davis</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="videos">
+
+<nav>
+  <div class="nav-in">
+    <a class="nav-brand" href="index.html">
+      <span>./</span>
+      <span class="nav-brand-name">TERRY A. DAVIS</span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">&#9776;</button>
+    <ul class="nav-links" id="nav-links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="videos.html" aria-current="page">Videos</a></li>
+      <li><a href="wikipedia.html">Wikipedia</a></li>
+      <li><a href="index.html#about-templeos">About TempleOS</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+  <header class="archive-header">
+    <div class="archive-header-in">
+      <h1 class="archive-title"><span>Video Archive</span></h1>
+      <p class="archive-meta">
+        <span id="total-count">1132</span> videos &mdash;
+        categories declared in videos.json &mdash;
+        Popular = view_count &ge; 50,000 &mdash;
+        served from local videos.json
+      </p>
+    </div>
+  </header>
+
+  <div class="controls-bar" role="search" aria-label="Filter, search and sort videos">
+    <div class="controls-in">
+
+      <div class="search-wrap">
+        <span class="search-icon" aria-hidden="true">&gt;</span>
+        <label for="search-input" class="sr-only">Search by title or description</label>
+        <input
+          type="search"
+          id="search-input"
+          class="search-input"
+          placeholder="Search title or description&hellip;"
+          autocomplete="off"
+          spellcheck="false"
+        >
+      </div>
+
+      <div class="filter-group" role="group" aria-label="Filter by category">
+        <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter-btn" data-filter="popular" aria-pressed="false">Popular</button>
+        <button class="filter-btn" data-filter="philosophical" aria-pressed="false">Philosophical</button>
+        <button class="filter-btn" data-filter="programming" aria-pressed="false">Programming</button>
+        <button class="filter-btn" data-filter="funny" aria-pressed="false">Funny</button>
+        <button class="filter-btn" data-filter="sad" aria-pressed="false">Sad</button>
+      </div>
+
+      <div class="filter-group" role="group" aria-label="Filter by channel">
+        <button class="filter-btn active" data-channel="all">All channels</button>
+        <button class="filter-btn" data-channel="davisanism">Davisanism</button>
+        <button class="filter-btn" data-channel="terry">Terry Davis</button>
+      </div>
+
+      <div class="controls-right">
+        <label for="sort-select" class="sr-only">Sort order</label>
+        <select id="sort-select" class="sort-select" aria-label="Sort videos">
+          <option value="default">Order: Default</option>
+          <option value="newest">Newest first</option>
+          <option value="oldest">Oldest first</option>
+          <option value="views">Most viewed</option>
+        </select>
+
+        <button id="refresh-btn" class="btn btn-ghost btn-sm" aria-label="Reload videos from videos.json">
+          REFRESH
+        </button>
+
+        <button id="csv-btn" class="btn btn-ghost btn-sm" aria-label="Export current results as CSV">
+          &#8659; CSV
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="results-bar" aria-live="polite" aria-atomic="true">
+    <span id="results-count">Loading&hellip;</span>
+  </div>
+
+  <div class="grid-wrap">
+    <div
+      id="video-grid"
+      class="video-grid"
+      role="list"
+      aria-label="Video results"
+    >
+      <div class="loading-state">Loading videos.json&hellip;</div>
+    </div>
+  </div>
+
+  <div id="pagination-wrap" aria-label="Pagination"></div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-in">
+    <div class="footer-col">
+      <span class="footer-label">Site</span>
+      <a href="index.html">Home</a>
+      <a href="videos.html">Videos</a>
+      <a href="wikipedia.html">Wikipedia</a>
+    </div>
+    <div class="footer-col">
+      <span class="footer-label">External</span>
+      <a href="https://templeos.org" target="_blank" rel="noopener noreferrer">TempleOS.org</a>
+      <a href="https://archive.org/details/TerryADavis_TempleOS" target="_blank" rel="noopener noreferrer">Internet Archive</a>
+      <a href="https://www.youtube.com/@Davisanism" target="_blank" rel="noopener noreferrer">Davisanism (YouTube)</a>
+      <a href="https://www.youtube.com/@TerryADavis" target="_blank" rel="noopener noreferrer">Terry Davis (YouTube)</a>
+    </div>
+    <p class="footer-copy">RIP TERRY A. DAVIS &mdash; 1969&ndash;2018</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
