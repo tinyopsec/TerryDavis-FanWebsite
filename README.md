@@ -1,6 +1,5 @@
 # Terry Davis Fan Website 👾
 
-##Visit website
 [![Visit Website](https://img.shields.io/badge/Visit%20Website-💻-brightgreen?style=for-the-badge&logo=github)](https://tinyopsec.github.io/TerryDavis-FanWebsite/)
 
 A tribute site celebrating the life and work of Terry A. Davis. Explore his projects, videos, and unique contributions to computing. This site is designed to be interactive, modern, and accessible.
