@@ -19,9 +19,6 @@ This fan site provides:
 ---
 
 ## Project Structure
-
-
-https://github.com/tinyopsec/TerryDavis-FanWebsite/tree/main
 ├── index.html # Main landing page
 ├── README.md # This file
 ├── style.css # Website styling 
