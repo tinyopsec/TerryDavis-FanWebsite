@@ -19,23 +19,23 @@ This fan site provides:
 ---
 
 ## Project Structure
-├── index.html # Main landing page
-├── README.md # This file
-├── style.css # Website styling 
-├── script.js # Main JS loader 
-├── videos.html # Video gallery page 
-├── wikipedia.html # Wikipedia-style tribute pages 
-├── videos.json # Video metadata 
-└── js/ # JavaScript modules 
-├── AppController.js 
-├── config.js 
-├── FilterManager.js 
-├── main.js 
-├── ModalPlayer.js 
-├── utils.js 
-├── VideoManager.js 
-├── VideoRenderer.js 
-└── WikiLoader.js 
+  - index.html          # Main landing page
+  - README.md           # This file
+  - style.css           # Website styling
+  - script.js           # Main JS loader
+  - videos.html         # Video gallery page
+  - wikipedia.html      # Wikipedia-style tribute pages
+  - videos.json         # Video metadata
+  - js/                 # JavaScript modules
+    - AppController.js
+    - config.js
+    - FilterManager.js
+    - main.js
+    - ModalPlayer.js
+    - utils.js
+    - VideoManager.js
+    - VideoRenderer.js
+    - WikiLoader.js
 
 ---
 
