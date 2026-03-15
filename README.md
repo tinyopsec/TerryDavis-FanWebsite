@@ -21,7 +21,7 @@ This fan site provides:
 ## Project Structure
 
 
-/home/user/terry/claude-v4
+
 ├── index.html # Main landing page
 ├── README.md # This file
 ├── style.css # Website styling
@@ -39,7 +39,6 @@ This fan site provides:
 ├── VideoManager.js
 ├── VideoRenderer.js
 └── WikiLoader.js
-
 
 ---
 
