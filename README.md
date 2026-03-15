@@ -2,7 +2,7 @@
 
 [💻 Visit Website](https://tinyopsec.github.io/TerryDavis-FanWebsite/)
 
-**Fan website dedicated to Terry A. Davis**, the visionary programmer behind [TempleOS](https://templeos.holyc.xyz/). Explore videos, articles, interactive content, and learn about his life, work, and unique contributions to computing.
+**Fan website dedicated to Terry A. Davis**, creator of [TempleOS](https://templeos.holyc.xyz/). Explore videos, interactive content, and Wikipedia-style articles celebrating his life and work.
 
 [![GitHub Stars](https://img.shields.io/github/stars/tinyopsec/TerryDavis-FanWebsite?style=social)](https://github.com/tinyopsec/TerryDavis-FanWebsite/stargazers)  
 [![Issues](https://img.shields.io/github/issues/tinyopsec/TerryDavis-FanWebsite)](https://github.com/tinyopsec/TerryDavis-FanWebsite/issues)  
@@ -10,56 +10,70 @@
 
 ---
 
-## About Terry Davis and This Fan Website
+## About
 
-This website is a **comprehensive fan tribute to Terry A. Davis**, creator of TempleOS. It provides:
+This website is a **fan tribute to Terry A. Davis**, featuring:
 
-- Detailed **biographical information** about Terry Davis  
-- **Interactive video gallery** with interviews, demos, and retrospectives  
-- **Wikipedia-style articles** curated for enthusiasts and newcomers  
-- Modern, responsive **web design** optimized for desktop and mobile  
-- Insights into his programming projects, philosophy, and unique computing style  
-
----
-
-## Website Structure
-
-- `index.html` – Main landing page with overview  
-- `style.css` – Custom CSS styling for the site  
-- `script.js` – Interactive JavaScript features  
-- `videos.html` – Video gallery with search functionality  
-- `wikipedia.html` – Wikipedia-style tribute pages  
-- `videos.json` – Metadata for video content  
+- **Biographical information** about Terry Davis  
+- **Interactive video gallery** (`videos.html`) with search and filters  
+- **Wikipedia-style tribute pages** (`wikipedia.html`)  
+- Modern responsive **web design** (`style.css`) and dynamic JS features (`js/`)  
+- Hosted securely on **GitHub Pages with HTTPS**  
 
 ---
 
-## Features & Highlights
+## Project Structure
 
-- Fully **responsive design** using modern web technologies  
-- **Interactive video gallery** with filters and search  
-- **Tracking & analytics**: page views, likes, GitHub stars  
-- Easy navigation across all sections  
-- Fully hosted on **GitHub Pages with HTTPS**  
-- **Curated content** with references and external links for deeper learning  
+
+/home/user/terry/claude-v4
+├── index.html # Main landing page
+├── README.md # This file
+├── style.css # Styling for the website
+├── script.js # Main JS loader
+├── videos.html # Video gallery page
+├── wikipedia.html # Wikipedia-style tribute pages
+├── videos.json # Video metadata
+└── js/ # JavaScript modules
+├── AppController.js
+├── config.js
+├── FilterManager.js
+├── main.js
+├── ModalPlayer.js
+├── utils.js
+├── VideoManager.js
+├── VideoRenderer.js
+└── WikiLoader.js
+
+
+---
+
+## Features
+
+- **Responsive design** for desktop and mobile  
+- **Interactive video gallery** with search, filters, and metadata from `videos.json`  
+- **Wikipedia-style content** loaded dynamically via `WikiLoader.js`  
+- **JavaScript modules** manage videos, modals, filtering, and main app logic  
+- **Tracking & analytics**: page views, GitHub stars  
+- Easy navigation between `index.html`, `videos.html`, and `wikipedia.html`  
 
 ---
 
 ## Key Resources
 
 - [Terry A. Davis Wikipedia](https://en.wikipedia.org/wiki/Terry_A._Davis)  
-- [TempleOS Official Project](https://templeos.holyc.xyz/)  
-- [Interviews and Articles on Terry Davis](https://www.google.com/search?q=Terry+A.+Davis+interview)  
+- [TempleOS Project](https://templeos.holyc.xyz/)  
+- [Interviews and Articles](https://www.google.com/search?q=Terry+A.+Davis+interview)  
 
 ---
 
-### SEO & Indexing Tips
+## SEO & Indexing Tips
 
-1. Include relevant keywords in your content and headings:  
-   `Terry Davis, TempleOS, fan site, programming, operating system, biographical articles, videos, interactive content`
-2. Use **internal links** to connect pages (`index.html`, `videos.html`, `wikipedia.html`).  
-3. Keep headings structured: `#` for main title, `##` for sections.  
-4. Regularly update content to improve Google indexing.  
-5. Optionally submit a `sitemap.xml` to [Google Search Console](https://search.google.com/search-console/about).
+1. Use relevant keywords throughout your pages and README:  
+   `Terry Davis, TempleOS, fan site, programming, operating system, videos, interactive content`  
+2. Link pages internally: `index.html`, `videos.html`, `wikipedia.html`  
+3. Structure headings with `#` for main title and `##` for sections  
+4. Submit `sitemap.xml` to [Google Search Console](https://search.google.com/search-console/about) for faster indexing  
+5. Keep README updated with new features, videos, and content  
 
 ---
 
