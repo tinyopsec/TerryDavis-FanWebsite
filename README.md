@@ -19,7 +19,7 @@ This fan site provides:
 ---
 
 ## Project Structure
-  - index.html          # Main landing page
+  - index.html          #Main landing page
   - README.md           # This file
   - style.css           # Website styling
   - script.js           # Main JS loader
