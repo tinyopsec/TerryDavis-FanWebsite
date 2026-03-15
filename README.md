@@ -1,46 +1,55 @@
-# Terry Davis Fan Website 👾
+🌐 Visit the Website
 
-## 🌐 Visit Website
+Official fan website dedicated to Terry A. Davis, the visionary programmer behind TempleOS
+. Explore videos, articles, interactive content, and learn about his life, work, and unique contributions to computing.
 
-[![Visit Website](https://img.shields.io/badge/Visit%20Website-💻-brightgreen?style=for-the-badge&logo=github)](https://tinyopsec.github.io/TerryDavis-FanWebsite/)
 
-A tribute site celebrating the life and work of Terry A. Davis. Explore his projects, videos, and unique contributions to computing. This site is designed to be interactive, modern, and accessible.
 
-[![GitHub Stars](https://img.shields.io/github/stars/tinyopsec/TerryDavis-FanWebsite?style=social)](https://github.com/tinyopsec/TerryDavis-FanWebsite/stargazers)
-[![Issues](https://img.shields.io/github/issues/tinyopsec/TerryDavis-FanWebsite)](https://github.com/tinyopsec/TerryDavis-FanWebsite/issues)
-[![Discussions](https://img.shields.io/github/discussions/tinyopsec/TerryDavis-FanWebsite)](https://github.com/tinyopsec/TerryDavis-FanWebsite/discussions)
 
----
 
-## About
 
-This fan website hosts a collection of resources related to Terry Davis, including videos, interactive content, and Wikipedia-style articles. It aims to make his work and story accessible to enthusiasts and newcomers alike. The site uses modern web technologies to provide a smooth and engaging experience.
+About Terry Davis and This Fan Website
 
----
+This website is a comprehensive fan tribute to Terry A. Davis, creator of TempleOS. It provides:
 
-## Files
+Detailed biographical information about Terry Davis
 
-- `index.html` main page  
-- `style.css` styling for the site  
-- `script.js` interactive site features  
-- `videos.html` video gallery  
-- `wikipedia.html` Wikipedia-style tribute  
-- `videos.json` metadata for videos  
+Interactive video gallery featuring interviews, demos, and retrospectives
 
----
+Wikipedia-style articles curated for enthusiasts and newcomers
 
-## Features
+Modern, responsive web design optimized for desktop and mobile
 
-- Interactive video gallery and searchable content  
-- Responsive and modern web design  
-- Tracks site activity: page views, likes, stars on GitHub  
-- Easy navigation between sections  
-- Fully hosted on GitHub Pages with HTTPS  
+Insights into his programming projects, philosophy, and unique computing style
 
----
+This site is designed to be SEO-friendly, interactive, and a central resource for anyone researching Terry Davis or TempleOS.
 
-## Resources and References
+Website Structure
+File	Description
+index.html	Main landing page with overview
+style.css	Custom CSS styling for the site
+script.js	Interactive JavaScript features
+videos.html	Video gallery with search functionality
+wikipedia.html	Wikipedia-style tribute pages
+videos.json	Metadata for video content
+Features & Highlights
 
-- [Terry A. Davis Wikipedia](https://en.wikipedia.org/wiki/Terry_A._Davis)  
-- [TempleOS Project](https://templeos.holyc.xyz/)  
-- [Interviews and Articles](https://www.google.com/search?q=Terry+A.+Davis+interview)  
+Fully responsive design with modern web technologies
+
+Interactive video gallery with filters and search
+
+Tracking & analytics: page views, likes, GitHub stars
+
+Easy navigation across all sections
+
+Fully hosted on GitHub Pages with HTTPS for security
+
+Curated content with references and external links for deeper learning
+
+Key Resources
+
+Terry A. Davis Wikipedia
+
+TempleOS Official Project
+
+Interviews and Articles on Terry Davis
