@@ -21,24 +21,24 @@ This fan site provides:
 ## Project Structure
 
 
-
+https://github.com/tinyopsec/TerryDavis-FanWebsite/tree/main
 ├── index.html # Main landing page
 ├── README.md # This file
-├── style.css # Website styling
-├── script.js # Main JS loader
-├── videos.html # Video gallery page
-├── wikipedia.html # Wikipedia-style tribute pages
-├── videos.json # Video metadata
-└── js/ # JavaScript modules
-├── AppController.js
-├── config.js
-├── FilterManager.js
-├── main.js
-├── ModalPlayer.js
-├── utils.js
-├── VideoManager.js
-├── VideoRenderer.js
-└── WikiLoader.js
+├── style.css # Website styling 
+├── script.js # Main JS loader 
+├── videos.html # Video gallery page 
+├── wikipedia.html # Wikipedia-style tribute pages 
+├── videos.json # Video metadata 
+└── js/ # JavaScript modules 
+├── AppController.js 
+├── config.js 
+├── FilterManager.js 
+├── main.js 
+├── ModalPlayer.js 
+├── utils.js 
+├── VideoManager.js 
+├── VideoRenderer.js 
+└── WikiLoader.js 
 
 ---
 
